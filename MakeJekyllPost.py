@@ -29,7 +29,7 @@ class MakeJekyllPostCommand(sublime_plugin.WindowCommand):
 		new_post.set_name(post_title)
 		edit = new_post.begin_edit()
 		new_post.insert(edit, 0, header)
-		new_post.end_edit()
+		new_post.end_edit(edit)
 
 	def run(self):
 		self.window.show_input_panel("Post Title:", "", self.on_done, None, None)
