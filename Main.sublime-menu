@@ -3,7 +3,17 @@
     "id": "tools",
     "children":
         [
-            { "caption": "New Jekyll Post", "command": "make_jekyll_post" }
+            { "caption": "Jekyll", 
+                "children":
+                    [
+                    {
+                        "caption": "Make New Post",
+                        "command": "make_jekyll_post"
+                    }
+                    ]
+
+
+            }
         ]
     }
 ]
