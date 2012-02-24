@@ -2,6 +2,11 @@
 
 Tools for working with Jekyll in Sublime Text 2
 
+###Installation
+* Install [Package Control](http://wbond.net/sublime_packages/package_control/installation) and restart when it tells you to.
+    * Add Repository - https://github.com/dnfehren/SublimeJekyll
+    * Install Package - SublimeJekyll
+
 ###Current capabilities:
 * make a new post : supply a title and get back a new document with properly formatted filename and yaml header (based on jekyll bootstrap)
     * command palette = Jekyll: New Post
