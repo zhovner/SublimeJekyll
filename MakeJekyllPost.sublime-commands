@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Jekyll Post, New",
+        "command": "make_jekyll_post"
+    }
+]

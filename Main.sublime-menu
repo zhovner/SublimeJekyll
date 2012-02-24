@@ -1,0 +1,9 @@
+[
+    {
+    "id": "tools",
+    "children":
+        [
+            { "caption": "New Jekyll Post", "command": "make_jekyll_post" }
+        ]
+    }
+]
