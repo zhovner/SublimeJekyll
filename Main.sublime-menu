@@ -7,7 +7,7 @@
                 "children":
                     [
                     {
-                        "caption": "Make New Post",
+                        "caption": "New Post",
                         "command": "make_jekyll_post"
                     }
                     ]
