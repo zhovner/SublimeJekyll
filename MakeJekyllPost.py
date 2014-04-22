@@ -6,7 +6,8 @@ layout: post
 category : blog
 tags : []
 ---
-{% include JB/setup %}
+
+text
 '''
 
 def make_post_date():
@@ -17,7 +18,7 @@ def make_post_date():
 def make_file_name(title_input):
 	jek_date = make_post_date()
 	jek_title = title_input.lower().replace(' ','-')
-	jek_file_type = '.md'
+	jek_file_type = '.markdown'
 	jek_post_title = jek_date + '-' + jek_title + jek_file_type
 	return jek_post_title
 
