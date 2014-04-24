@@ -26,7 +26,7 @@ def make_file_name(title_input):
 	jek_post_title = jek_date + '-' + jek_title + jek_file_type
 	return jek_post_title
 
-class MakeJekyllPostCommand(sublime_plugin.WindowCommand):
+class MakeJekyllPostToolsCommand(sublime_plugin.WindowCommand):
 
 	def on_done(self, title):
 		new_post = self.window.new_file()
