@@ -2,12 +2,16 @@ import sublime, sublime_plugin
 import datetime
 
 header = '''---
-layout: post
-category : blog
-tags : []
+layout: geekpost
+category: geek
+tags: 
+excerpt:
 ---
 
-text
+![alt](/img/pic.jpg)
+
+[text](http://url)
+
 '''
 
 def make_post_date():
