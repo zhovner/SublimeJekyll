@@ -6,10 +6,9 @@
             { "caption": "Jekyll", 
                 "children":
                     [
-                    {
-                        "caption": "New Post",
-                        "command": "make_jekyll_post"
-                    }
+                        { "caption": "Jekyll: New Post Geek", "command": "make_jekyll_post_geek" },
+                        { "caption": "Jekyll: New Post Random", "command": "make_jekyll_post_random" },
+                        { "caption": "Jekyll: New Post Tools", "command": "make_jekyll_post_tools" }
                     ]
 
 
