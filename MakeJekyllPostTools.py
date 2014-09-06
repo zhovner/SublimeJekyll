@@ -2,10 +2,11 @@ import sublime, sublime_plugin
 import datetime
 
 header = '''---
-layout: toolspost
+layout: post
 category: tools
 tags: 
 excerpt:
+title:
 ---
 
 ![alt](/img/pic.jpg)
